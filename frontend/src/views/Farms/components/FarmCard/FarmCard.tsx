@@ -62,7 +62,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, displayApr, removed, cakePric
   ? `${farm.lpTotalInQuoteToken.toNumber().toLocaleString(undefined, { maximumFractionDigits: 7 })}`
   : ''
       
-  const lpLabel = "MTR";/* arm.lpSymbol && farm.lpSymbol.toUpperCase().replace('PANCAKE', '') */
+  const lpLabel = "PRX";/* arm.lpSymbol && farm.lpSymbol.toUpperCase().replace('PANCAKE', '') */
  
   const earnLabel = widrawLockLabel[index]/* farm.dual ? farm.dual.earnLabel : t('CAKE + Fees') */
  

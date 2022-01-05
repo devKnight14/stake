@@ -28,6 +28,7 @@ import FarmTabButtons from './components/FarmTabButtons'
 import { RowProps } from './components/FarmTable/Row'
 import ToggleView from './components/ToggleView/ToggleView'
 import { DesktopColumnSchema } from './components/types'
+
 /*
 const ControlContainer = styled.div`
   display: flex;
@@ -347,11 +348,11 @@ const Farms: React.FC = () => {
   return (
     <>
       <PageHeader>
-        <Heading as="h1" scale="xxl" color="white" mb="24px">
+        <Heading as="h1" scale="xxl" mb="24px" style={{backgroundImage: 'linear-gradient(to bottom, #ffe964 22%,#dcaa35 24%,#dcaa35 40%,#ffe964 78%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
           {t('Farms')}
         </Heading>
-        <Heading scale="lg" color="white">
-          {t('Stake LP to earn more Meta Rewards Tokens.')}
+        <Heading scale="lg" style={{backgroundImage: 'linear-gradient(to bottom, #ffe964 22%,#dcaa35 24%,#dcaa35 40%,#ffe964 78%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+          {t('Stake LP to earn more USDT Tokens.')}
         </Heading>
       </PageHeader>
       <Page>

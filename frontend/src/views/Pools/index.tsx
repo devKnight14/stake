@@ -263,11 +263,11 @@ const Pools: React.FC = () => {
       <PageHeader>
         <Flex justifyContent="space-between" flexDirection={['column', null, null, 'row']}>
           <Flex flex="1" flexDirection="column" mr={['8px', 0]}>
-            <Heading as="h1" scale="xxl" color="white" mb="24px">
+            <Heading as="h1" scale="xxl" style={{backgroundImage: 'linear-gradient(to bottom, #ffe964 22%,#dcaa35 24%,#dcaa35 40%,#ffe964 78%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}} mb="24px">
               {t('Pools')}
             </Heading>
-            <Heading scale="lg" color="white">
-              {t('Stake your tokens to earn MRT rewards!')}
+            <Heading scale="lg" style={{backgroundImage: 'linear-gradient(to bottom, #ffe964 22%,#dcaa35 24%,#dcaa35 40%,#ffe964 78%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+              {t('Stake your PRX tokens to earn USDT rewards!')}
             </Heading>
             {/* <Heading scale="md" color="text">
               {t('High APR, low risk.')}
